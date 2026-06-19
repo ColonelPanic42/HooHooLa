@@ -1,6 +1,6 @@
 ![HooHooLa Project](./assets/HooHooLa.png)
 
-Certain typs of owls use their facial muscles to turn from cute and fluffy to serious mode.
+Certain types of owls use their facial muscles to turn from cute and fluffy to serious mode.
 In the same way in this project the goal is to switch the peer to peer (P2P) network connection of interconnected cell phones and IoT sensors from the power saving [Bluetooth LE](https://www.bluetooth.com/bluetooth-le-primer/) to the higher performing [Wifi Aware](https://www.wi-fi.org/alternative-topologies).
 
 The initial approach will be measuring [RSSI](https://www.networkacademy.io/ccna/wireless/interference-rssi-and-snr) and switching between the 2 mentioned techniques depending how big the value is, as the signal strength diminishes by the square of the distance in line-of sight situations and more than that in multipath situations, RSSI can be correlated directly to distance, which is the deciding factor for using either Bluetooth LE or Wifi Aware. 
